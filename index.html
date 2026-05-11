@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D/A Veste Ai - Moda Contemporânea</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+   
+    <!-- Marquee -->
+    <div class="marquee">
+    <div class="marquee-track">
+        <span>VESTE A VISÃO!</span>
+        <span>✦</span>
+        <span>D/A VESTE AI</span>
+         <span>✦</span>
+        <span>VESTE A VISÃO!</span>
+         <span>✦</span>
+        <span>D/A VESTE AI</span>
+         <span>✦</span>
+
+        <!-- Duplicado pra animação infinita -->
+        <span>VESTE A VISÃO!</span>
+         <span>✦</span>
+        <span>D/A VESTE AI</span>
+         <span>✦</span>
+        <span>VESTE A VISÃO!</span>
+         <span>✦</span>
+        <span>D/A VESTE AI</span>
+         <span>✦</span>
+
+          <span>VESTE A VISÃO!</span>
+         <span>✦</span>
+        <span>D/A VESTE AI</span>
+         <span>✦</span>
+        <span>VESTE A VISÃO!</span>
+         <span>✦</span>
+        <span>D/A VESTE AI</span>
+         <span>✦</span>
+    </div>
+</div>
+   
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+    <a href="index.html">
+        <img src="src/DALOGO.png" alt="D/A VESTE AI" class="logo-img">
+    </a>
+</div>
+                <div class="nav-links">
+                    <a href="aboutus.html">A MARCA</a>
+                    <a href="index.html">NOVIDADES</a>
+                    <div class="nav-dropdown">
+                        <button class="nav-dropdown-btn">COLEÇÕES <i class="fas fa-chevron-down"></i></button>
+                        <div class="dropdown-menu">
+                            <a href="#mulher">FEMININA</a>
+                            <a href="#homem">MASCULINO</a>
+                        </div>
+                    </div>
+                    <a href="infantil.html">INFANTIL</a>
+                    <a href="acessorios.html">ACESSÓRIOS</a>
+                </div>
+                <div class="nav-right">
+                    <a href="#login" class="login-btn">ENTRAR</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Estilo que transforma!</h2>
+                <p>Veste a visão! Moda urbana feita para quem quer se expressar sem dizer uma palavra.</p>
+                <button class="btn-shop">Comprar agora</button>
+            </div>
+            <div>
+                <img src="src/DAMODEL.png" alt="D/A Veste Ai - Modelo" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+<!-- Recommended Products -->
+<section class="recommended" id="recomendados">
+    <div class="container">
+        <h2>Recomendados</h2>
+        <div class="rec-wrapper">
+            <button class="rec-arrow rec-arrow--left" onclick="slideRec(-1)">&#8249;</button>
+
+            <div class="rec-track-container">
+                <div class="rec-track" id="recTrack">
+
+                    <!-- Card 1 -->
+                    <div class="rec-item">
+                        <div class="rec-img-wrap" style="background-image: url('src/produto1.png')">
+                            <div class="rec-overlay"></div>
+                            <button class="rec-wishlist" aria-label="Favoritar">&#9825;</button>
+                        </div>
+                        <div class="rec-info">
+                            <p class="rec-name">Camiseta Básica Brasa Pica-pau Bordado</p>
+                            <p class="rec-price">R$ 129,00</p>
+                            <p class="rec-price-prime">R$ 109,65 <span>Prime</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 (com desconto) -->
+                    <div class="rec-item">
+                        <div class="rec-img-wrap" style="background-image: url('src/produto2.png')">
+                            <div class="rec-overlay"></div>
+                            <span class="rec-badge">47% OFF</span>
+                            <button class="rec-wishlist" aria-label="Favoritar">&#9825;</button>
+                        </div>
+                        <div class="rec-info">
+                            <p class="rec-name">Camiseta Sb Pica Pau Est Meme Escudo</p>
+                            <p class="rec-price-old">R$ 169,00</p>
+                            <p class="rec-price">R$ 89,00</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="rec-item">
+                        <div class="rec-img-wrap" style="background-image: url('src/produto3.png')">
+                            <div class="rec-overlay"></div>
+                            <button class="rec-wishlist" aria-label="Favoritar">&#9825;</button>
+                        </div>
+                        <div class="rec-info">
+                            <p class="rec-name">Camiseta Básica Brasa Pica-pau Bordado</p>
+                            <p class="rec-price">R$ 129,00</p>
+                            <p class="rec-price-prime">R$ 109,65 <span>Prime</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 (com desconto) -->
+                    <div class="rec-item">
+                        <div class="rec-img-wrap" style="background-image: url('src/produto4.png')">
+                            <div class="rec-overlay"></div>
+                            <span class="rec-badge">50% OFF</span>
+                            <button class="rec-wishlist" aria-label="Favoritar">&#9825;</button>
+                        </div>
+                        <div class="rec-info">
+                            <p class="rec-name">Polo Regular Bristol</p>
+                            <p class="rec-price-old">R$ 359,00</p>
+                            <p class="rec-price">R$ 179,90</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 (com desconto) -->
+                    <div class="rec-item">
+                        <div class="rec-img-wrap" style="background-image: url('src/produto5.png')">
+                            <div class="rec-overlay"></div>
+                            <span class="rec-badge">47% OFF</span>
+                            <button class="rec-wishlist" aria-label="Favoritar">&#9825;</button>
+                        </div>
+                        <div class="rec-info">
+                            <p class="rec-name">Camiseta Pica Pau Escudo Qrcode Est</p>
+                            <p class="rec-price-old">R$ 169,00</p>
+                            <p class="rec-price">R$ 89,00</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="rec-item">
+                        <div class="rec-img-wrap" style="background-image: url('src/produto1.png')">
+                            <div class="rec-overlay"></div>
+                            <button class="rec-wishlist" aria-label="Favoritar">&#9825;</button>
+                        </div>
+                        <div class="rec-info">
+                            <p class="rec-name">Camiseta Básica Brasa Pica-pau Bordado</p>
+                            <p class="rec-price">R$ 129,00</p>
+                            <p class="rec-price-prime">R$ 109,65 <span>Prime</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Card 7 (com desconto) -->
+                    <div class="rec-item">
+                        <div class="rec-img-wrap" style="background-image: url('src/produto2.png')">
+                            <div class="rec-overlay"></div>
+                            <span class="rec-badge">47% OFF</span>
+                            <button class="rec-wishlist" aria-label="Favoritar">&#9825;</button>
+                        </div>
+                        <div class="rec-info">
+                            <p class="rec-name">Camiseta Sb Pica Pau Est Meme Escudo</p>
+                            <p class="rec-price-old">R$ 169,00</p>
+                            <p class="rec-price">R$ 89,00</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 8 -->
+                    <div class="rec-item">
+                        <div class="rec-img-wrap" style="background-image: url('src/produto3.png')">
+                            <div class="rec-overlay"></div>
+                            <button class="rec-wishlist" aria-label="Favoritar">&#9825;</button>
+                        </div>
+                        <div class="rec-info">
+                            <p class="rec-name">Camiseta Básica Brasa Pica-pau Bordado</p>
+                            <p class="rec-price">R$ 129,00</p>
+                            <p class="rec-price-prime">R$ 109,65 <span>Prime</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Card 9 (com desconto) -->
+                    <div class="rec-item">
+                        <div class="rec-img-wrap" style="background-image: url('src/produto4.png')">
+                            <div class="rec-overlay"></div>
+                            <span class="rec-badge">50% OFF</span>
+                            <button class="rec-wishlist" aria-label="Favoritar">&#9825;</button>
+                        </div>
+                        <div class="rec-info">
+                            <p class="rec-name">Polo Regular Bristol</p>
+                            <p class="rec-price-old">R$ 359,00</p>
+                            <p class="rec-price">R$ 179,90</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 10 (com desconto) -->
+                    <div class="rec-item">
+                        <div class="rec-img-wrap" style="background-image: url('src/produto5.png')">
+                            <div class="rec-overlay"></div>
+                            <span class="rec-badge">47% OFF</span>
+                            <button class="rec-wishlist" aria-label="Favoritar">&#9825;</button>
+                        </div>
+                        <div class="rec-info">
+                            <p class="rec-name">Camiseta Pica Pau Escudo Qrcode Est</p>
+                            <p class="rec-price-old">R$ 169,00</p>
+                            <p class="rec-price">R$ 89,00</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="rec-arrow rec-arrow--right" onclick="slideRec(1)">&#8250;</button>
+        </div>
+
+        <div class="rec-dots">
+            <span class="rec-dot active"></span>
+            <span class="rec-dot"></span>
+        </div>
+    </div>
+</section>
+
+    <!-- Featured Section -->
+  <section class="featured" id="loja">
+    <h2>Destaques & Novidades</h2>
+    <div class="featured-slider">
+
+
+        <div class="slides-container">
+
+            <div class="slide active">
+                <img src="src/DASLIDE1.png" alt="">
+                <button class="btn-buy">Comprar</button>
+            </div>
+
+            <div class="slide">
+                <img src="src/DASLIDE2.png" alt="">
+                <button class="btn-buy">Comprar</button>
+            </div>
+
+            <div class="slide">
+                <img src="src/DASLIDE.png" alt="">
+                <button class="btn-buy">Comprar</button>
+            </div>
+
+        </div>
+
+        <button class="slider-btn slider-btn-prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn slider-btn-next"><i class="fas fa-chevron-right"></i></button>
+
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Women's Collection -->
+    <section class="women-collection" id="mulher">
+        <div class="container">
+            <h2>Coleção Feminina</h2>
+            <div class="collection-wrapper">
+                <div class="collection-item" style="background-image: url('src/vestidos.png')">
+                    <div class="collection-overlay"></div>
+                    <h3>Vestidos</h3>
+                </div>
+                <div class="collection-item" style="background-image: url('src/crop.png')">
+                    <div class="collection-overlay"></div>
+                    <h3>Croppeds & Blusas</h3>
+                </div>
+                <div class="collection-item" style="background-image: url('src/saia.png')">
+                    <div class="collection-overlay"></div>
+                    <h3>Shorts & Saias</h3>
+                </div>
+                <div class="collection-item" style="background-image: url('src/acessorios.png')">
+                    <div class="collection-overlay"></div>
+                    <h3>Acessórios</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Men's Collection -->
+    <section class="men-collection" id="homem">
+        <div class="container">
+            <h2>Coleção Masculina</h2>
+            <div class="collection-wrapper">
+                <div class="collection-item" style="background-image: url('src/camisetas.png')">
+                    <div class="collection-overlay"></div>
+                    <h3>Camisetas</h3>
+                </div>
+                <div class="collection-item" style="background-image: url('src/shorts.png')">
+                    <div class="collection-overlay"></div>
+                    <h3>Calças & Shorts</h3>
+                </div>
+                <div class="collection-item" style="background-image: url('src/casacos.png')">
+                    <div class="collection-overlay"></div>
+                    <h3>Casacos & Hoodies</h3>
+                </div>
+                <div class="collection-item" style="background-image: url('src/acessorios-m.png')">
+                    <div class="collection-overlay"></div>
+                    <h3>Acessórios</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Contact Section -->
+<section class="contact">
+  <div class="contact-wrapper">
+    <!-- Imagem de fundo -->
+    <img src="src/bg.png" alt="" class="contact-bg">
+
+    <!-- Degradê sobreposto -->
+    <div class="contact-overlay"></div>
+
+    <div class="contact-inner">
+      <div class="contact-content">
+        <h2>Compre pelo WhatsApp!</h2>
+
+        <!-- Benefícios compactos -->
+        <div class="contact-benefits">
+          <div class="benefit-item">
+            <span class="benefit-icon">✓</span>
+            Atendimento Rápido
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">✓</span>
+            Suporte Especializado
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">✓</span>
+            Compra Segura
+          </div>
+        </div>
+
+        <p>Coloque seu telefone para entrar em contato com um dos nossos atendentes!</p>
+
+        <form class="contact-form" autocomplete="on">
+          <input
+            type="tel"
+            name="tel"
+            id="contact-phone"
+            placeholder="Seu telefone"
+            autocomplete="tel"
+            pattern="[\d\s\(\)\-\+]+"
+            title="Informe um número de telefone válido"
+            required
+          >
+          <button type="submit" class="btn-send">ENVIAR</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+   <footer class="footer">
+    <div class="footer-brand">
+        <span>D/A VESTE AI</span>
+    </div>
+
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>EXPLORE D/A VESTE AI</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#loja">Loja</a></li>
+                    <li><a href="#colecoes">Coleções</a></li>
+                    <li><a href="#lookbook">Lookbook</a></li>
+                    <li><a href="#mapa">Mapa do Site</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>SERVIÇOS ONLINE</h4>
+                <ul>
+                    <li><a href="#">Métodos de Pagamento</a></li>
+                    <li><a href="#">Opções de Envio</a></li>
+                    <li><a href="#">Minha Conta</a></li>
+                    <li><a href="#">Devoluções</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>ATENDIMENTO</h4>
+                <ul>
+                    <li><a href="#">Encontre uma Loja</a></li>
+                    <li><a href="#">Agendamentos</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>A MARCA</h4>
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Serviço</a></li>
+                    <li><a href="#">Aviso Legal</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 D/A Veste Ai. Todos os direitos reservados.</p>
+           <div class="footer-socials">
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+           </div>
+           
+    <script src="js/script.js"></script>
+</body>
+</html>
